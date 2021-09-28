@@ -41,4 +41,3 @@ fields:
   description: CMS-defined content sections for the homepage
 pages:
 - content/pages/homepage.yaml
-- content/pages/homepage.yaml
