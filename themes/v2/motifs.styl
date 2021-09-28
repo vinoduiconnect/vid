@@ -1,0 +1,52 @@
+.motif{":"}
+    +at-class()
+        // --hue-bg: initial
+        // --sat-bg: initial
+        // --lux-bg: initial
+        // --alpha-bg: initial
+        // --hue-fg: initial
+        // --sat-fg: initial
+        // --lux-fg: initial
+        // --alpha-fg: initial
+
+        background-color: var(--active-bg)
+        color: var(--active-fg)
+        border-color: var(--active-edge)
+
+    &bright
+        +at-class()
+            --active-bg: convert-bg(colors.bright)
+            --active-fg: var(--color-dark)
+            --color-link-active: var(--color-primary)
+
+            ::selection
+                --active-bg: var(--color-tint)
+
+        // &--opx:20
+        //     +at-class()
+        //         --alpha-bg: .95
+
+    &dark
+        +at-class()
+            --active-bg: var(--color-dark)
+            --active-fg: var(--color-bright)
+            --color-link-active: var(--color-primary)
+
+            ::selection
+                background-color: var(--color-tint)
+
+    &secondary
+        +at-class()
+            --active-bg: var(--color-secondary)
+            --active-fg: var(--color-bright)
+            --color-link-active: var(--color-primary)
+
+            ::selection
+                background-color: var(--color-tint)
+
+    &tint
+        +at-class()
+            --active-bg: var(--color-tint)
+            --active-fg: var(--color-dark)
+            // --color-accent: var(--color-accent-1)
+            // --color-link-active: var(--color-primary)

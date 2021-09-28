@@ -1,0 +1,20 @@
+query {
+    content: allIndustries (
+        filter: { isActive: { eq: true } }
+        sortBy: "hed"
+        order: ASC
+    ) {
+        edges{
+            node {
+                path
+                content
+                hed
+                lede
+                # appliedServices
+                # crossLink {
+                #     media
+                # }
+            }
+        }
+    }
+}

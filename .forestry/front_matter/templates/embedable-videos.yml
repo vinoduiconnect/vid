@@ -1,0 +1,58 @@
+---
+label: Embedable Videos
+hide_body: true
+fields:
+- name: video
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: video-library
+      file: content/videos.yaml
+      path: videos
+  label: Available Videos
+- name: videoConfig
+  type: field_group
+  config: {}
+  label: Extended Video Configurations
+  description: Additional properties about your video playback
+  fields:
+  - name: poster
+    type: file
+    config: 
+    maxSize: 64
+    label: Poster Image
+    description: Image that should show before video is loaded into place
+  - name: loop
+    type: boolean
+    label: Should this video loop?
+    description: Do not loop video if its content driven; do loop if background video
+  - name: playsinline
+    type: boolean
+    label: Should this video play inline on mobile devices?
+    hidden: true
+    default: true
+  - name: preload
+    type: select
+    default: ''
+    config:
+      required: false
+      options: []
+      source: 
+      type: simple
+      section: 
+      file: 
+      path: 
+    label: How should this video preload itself?
+    hidden: true
+  - name: autoplay
+    type: boolean
+    label: Should this video autoplay?
+    description: Do not autoplay content video (youtube, etc); Do autoplay background
+      video
+    default: false
+pages:
+- content/videos.yaml

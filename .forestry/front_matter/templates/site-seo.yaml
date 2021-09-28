@@ -1,0 +1,57 @@
+---
+label: Site SEO
+hide_body: true
+fields:
+- type: text
+  name: application-name
+  label: Name of Site
+  description: This is part of the page's title template and will show up in the browser
+    title bar
+- type: text
+  name: url
+  label: Url
+  description: The domain name for the site. Used for SEO purposes among other things
+- type: text
+  name: abstract
+  label: Abstract
+  description: Very short (10 words or less) description. Primarily for academic papers
+- type: text
+  name: subject
+  label: Subject
+  description: Short description of your site's subject
+- type: text
+  name: description
+  label: Description
+  description: Short description of the page (limit to 150 characters)  In *some*
+    situations this description is used as a part of the snippet shown in the search
+    results.
+- type: text
+  name: directory
+  label: Directory
+  description: Controls the behavior of search engine crawling and indexing
+- type: text
+  name: rating
+  label: Rating
+  description: Gives a general age rating based on sites content
+- type: text
+  name: author
+  label: Author
+  description: Site developer author information
+  hidden: true
+- type: text
+  name: referrer
+  label: Referrer
+  description: Allows control over how referrer information is passed
+  hidden: true
+- type: text
+  name: robots
+  label: Robots
+  description: Controls the behavior of search engine crawling and indexing
+  hidden: true
+- type: text
+  name: format-detection
+  label: format-detection
+  description: used to remove link states on phone numbers
+  hidden: true
+pages:
+- content/seo.yaml

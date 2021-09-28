@@ -1,0 +1,41 @@
+---
+label: Author
+hide_body: true
+fields:
+- name: author
+  type: field_group
+  config: {}
+  fields:
+  - name: isStaff
+    type: boolean
+    label: Was this written by the PCGI Staff?
+    description: Select if written by the general "PCGI staff"
+    default: true
+  - name: author
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: team
+        file: 
+        path: 
+    label: PCGI Team Author
+    description: Which team member wrote this?
+    showOnly:
+      field: isStaff
+      value: false
+  - name: name
+    type: text
+    config:
+      required: false
+    label: PCGI Staff Title
+    description: Default name for PCGI Staff writer
+    default: PCGI Staff
+    showOnly:
+      field: isStaff
+      value: true
+  label: Author
+  description: Author information

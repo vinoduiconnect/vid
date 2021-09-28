@@ -1,0 +1,11 @@
+# host: https://dermatology.com
+# sitemap: https://dermatology.com/sitemap.xml
+policy:
+    -   userAgent: Googlebot
+        allow: /
+        crawlDelay: 2
+
+    -   userAgent: "*"
+        allow: /
+        crawlDelay: 10
+        cleanParam: ref /articles/]

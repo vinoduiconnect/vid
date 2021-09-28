@@ -1,0 +1,676 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff1\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi31507\deflang16393\deflangfe16393\themelang16393\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0302020204030204}Calibri Light;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f442\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f443\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f445\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f446\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f447\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f448\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f449\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f450\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f452\fbidi \fswiss\fcharset238\fprq2 Arial CE;}{\f453\fbidi \fswiss\fcharset204\fprq2 Arial Cyr;}
+{\f455\fbidi \fswiss\fcharset161\fprq2 Arial Greek;}{\f456\fbidi \fswiss\fcharset162\fprq2 Arial Tur;}{\f457\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f458\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f459\fbidi \fswiss\fcharset186\fprq2 Arial Baltic;}{\f460\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f782\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}{\f783\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}
+{\f785\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f786\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f789\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}{\f790\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}
+{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhimajor\f31528\fbidi \fswiss\fcharset238\fprq2 Calibri Light CE;}{\fhimajor\f31529\fbidi \fswiss\fcharset204\fprq2 Calibri Light Cyr;}
+{\fhimajor\f31531\fbidi \fswiss\fcharset161\fprq2 Calibri Light Greek;}{\fhimajor\f31532\fbidi \fswiss\fcharset162\fprq2 Calibri Light Tur;}{\fhimajor\f31533\fbidi \fswiss\fcharset177\fprq2 Calibri Light (Hebrew);}
+{\fhimajor\f31534\fbidi \fswiss\fcharset178\fprq2 Calibri Light (Arabic);}{\fhimajor\f31535\fbidi \fswiss\fcharset186\fprq2 Calibri Light Baltic;}{\fhimajor\f31536\fbidi \fswiss\fcharset163\fprq2 Calibri Light (Vietnamese);}
+{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31573\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\fhiminor\f31574\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}
+{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green0\blue0;\red0\green0\blue0;}{\*\defchp \fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap 
+\ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe16393\loch\f1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp16393 \snext0 \sqformat \spriority0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang16393\langfe16393\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp16393\langfenp16393 
+\snext11 \ssemihidden \sunhideused Normal Table;}}{\*\rsidtbl \rsid5178606\rsid15272109}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator GIRI VARSHITH}
+{\creatim\yr2020\mo4\dy17\hr9\min13}{\revtim\yr2020\mo4\dy17\hr9\min14}{\version2}{\edmins1}{\nofpages10}{\nofwords2796}{\nofchars15940}{\nofcharsws18699}{\vern125}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aendnotes\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\dntblnsbdb\formshade\horzdoc\dghspace120\dgvspace120
+\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale90\pgbrdrhead\pgbrdrfoot\htmautsp\rsidroot5178606\nogrowautofit \nouicompat \fet0{\*\wgrffmtfilter 2450}\nofeaturethrottle1\ilfomacatclnup0\ltrpar \sectd \ltrsect
+\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}
+{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 
+\rtlch\fcs1 \af1\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe16393\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp16393 {\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 MURTHY LAW FIRM}{\rtlch\fcs1 
+\af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 10451 Mill Run Circle, Suite 100}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 Owings Mills, Maryland 21117}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 Telephone: 410.356.5440 Fax: 410.356.5669}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 Web Site: http://www.murthy.com}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 eMail: law@murthy.com}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 Memorandum}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 RE: Department of Labor, Labor Condition Application Requirement for all H1B Petitions and Public Access File}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }\pard \ltrpar\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 IMPORTANT INFORMATION}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 IMMEDIATE ACTION REQUIRED}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 This memorandum discusses the representations that a petitioning employer who is H1B Dependent
+ or willful violator as defined in (20 CFR 656.736) and is employing an H1B nonimmigrant who is 'exempt' as defined in 20 CFR 655.737, (Employer) makes when executing a Labor Condition Application (LCA) in conjunction with the H1B petition process. The LC
+A requirements are provided for in 20 CFR 655-656.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+Please be advised that this memorandum merely serves as general guidance in order to review the Employer's obligations associated with the LCA. Accordingly, if the Employer has questions as to specific pro
+cedures regarding the LCA and attestations, please schedule a consultation with the attorney at your earliest convenience.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 In order to file an H1B petition with the United States Citizenship and Immigration Services (USCIS), the Employer must first file a
+n LCA with the Department of Labor (DOL).}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+The Employer must make available the LCA and necessary support documentation for public examination at the Employer's principal place of business in the United States, or at the place of employment, within one working day after filing the LCA.}{
+\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The LCA must list ALL intended places of employment. Please note that additional LCAs should be filed for any anticipated places of employment, }{\rtlch\fcs1 
+\ai\af1\afs22 \ltrch\fcs0 \i\fs22\dbch\af0\insrsid15272109\charrsid5178606 as a change of location that was not noted in the original H1B petition will require the filing of a new LCA}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\dbch\af0\insrsid15272109\charrsid5178606 .}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 I. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 DEPARTMENT OF LABOR LCA PUBLIC ACCESS FILE}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 
+WARNING: Employers must comply with all the rules and regulations pertaining to the Labor Condition Application. Failure to do so could lead to steep monetary penalties ranging from $3,000 to $35,000 }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 
+\b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 per violation}{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 , as well as civil and criminal liabilities.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 II. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 LCA}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 A. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 
+\b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 LCA ATTESTATIONS}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li340\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin340\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 An Employer, prior to filing an H1B petition with USCIS, must file an LCA, Form ETA9035, with the DOL. By filing the LCA, the Employer attests to all of the following:}{
+\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 1. For the entire period of H1B authorized employment,
+ the Employer will pay all H1B employees who have similar experience and qualifications for the specific position set forth in the LCA, 'no less than the greater of the following:' }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1814\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1814\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 a. The actual wage level paid by the Employer to all other individuals wi
+th similar experience and qualifications for the specific position in question; or}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1814\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1814\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+b. The prevailing wage level for that specific occupational classification. The relevant wages are those paid in the geographic area where the H1B nonimmigrant will be employed.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+2. The Employer shall continue to pay the H1B nonimmigrant the required wage for any time in nonproductive status due to a decision of the Employer or due to Employer's lack of permit or license.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 3. The H1B nonimmigrant will be offered benefits and
+ eligibility for benefits on the same basis and in accordance with the same criteria, as offered to U.S. workers.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+4. The employment of H1B nonimmigrants in the specialty occupation will not adversely affect the working conditions of workers similarly employed. Working conditions include hours, shifts, vacation periods and fringe benefits.}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+5. The H1B nonimmigrants will be afforded working conditions on the same basis and in accordance with the same criteria, as offered to similarly employed U.S. workers.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+6. On the date the LCA is signed and filed there is not a strike, lockout or work stoppage in the course of a labor dispute in the occupation in which H1B nonimmigrants will be employed at the place of employment. If such a strike or lockout occurs after 
+t
+he filing of the LCA, the employer will notify the Employment and Training Administration (ETA) within three days of the occurrence, and the LCA will not be used in support of petition filings with USCIS for H1B nonimmigrants to work in the same occupatio
+n at the place of employment until the ETA determines the strike or lockout has ceased.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 7.}{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 
+\b\fs22\dbch\af0\insrsid15272109\charrsid5178606  }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 Within 30 days prior to or on the date of filing the LCA}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\dbch\af0\insrsid15272109\charrsid5178606 , notice of the LCA has been provided to workers employed in the occupation in which H1B nonimmigrants will be employed through one of the following two methods:}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li2211\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin2211\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+a. To the bargaining representative of workers in the occupation in which H1B nonimmigrants will be employed.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li2211\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin2211\itap0\pararsid5178606 {\rtlch\fcs1 \ai\af1\afs22 \ltrch\fcs0 \i\fs22\dbch\af0\insrsid15272109\charrsid5178606 b. If there is no bargaining representative, either through }{
+\rtlch\fcs1 \ai\af1\afs22 \ltrch\fcs0 \i\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 physical posting}{\rtlch\fcs1 \ai\af1\afs22 \ltrch\fcs0 \i\fs22\dbch\af0\insrsid15272109\charrsid5178606  in two conspicuous locations for 10 consecutive days where
+ H1B nonimmigrants will be employed or }{\rtlch\fcs1 \ai\af1\afs22 \ltrch\fcs0 \i\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 through electronic notification}{\rtlch\fcs1 \ai\af1\afs22 \ltrch\fcs0 \i\fs22\dbch\af0\insrsid15272109\charrsid5178606 
+ to employees in the occupational classification for which H1B nonimmigrants are being sought. }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 B. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 
+\b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 COPY OF LCA TO EMPLOYEE}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li340\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin340\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 A copy of the certified LCA, as well as a copy of the ETA 903
+5CP (Cover Pages), if requested, will be provided to each H1B nonimmigrant employee pursuant to the LCA, no later than the date that the H1B nonimmigrant reports to work at the place of employment. }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 III. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 THE PUBLIC ACCESS FILE}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 An H1B petitioning Employer must maintain a Public Access File (PAF).}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The PAF must, upon the DOL's or other party's request, be made available for inspection.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The PAF must be made available within one working day of the LCA filing and must be kept at either the employer's principa
+l place of business, or at the beneficiary's place of actual employment.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The PAF must contain all of the following information:}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+1. A copy of the LCA, signed by the Employer's representative, including ETA 9035 (the actual form) and ETA 9035CP, the LCA cover pages.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 2. Documentation providing the actual wage rate to be paid to the H1B worker admitted under the LCA.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 3. A copy of the prevailing wage determination.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 4. A memorandum explaining how the employer calculated the actual wage for the job, without i
+dentifying the H1B worker or the other workers who are similarly employed as the H1B worker for purposes of determining the actual wage. The documentation could be a memorandum summarizing the system used or a copy of the employer's standardized pay syste
+m. (IE: A description of the company's internal wage system explaining what factors are used to determine an employee's wage, for example: Wage Surveys; Local Wage Data; Market Data; experience, academic qualification, productivity potential, etc.)}{
+\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 5. A su
+mmary of the benefits offered to United States workers in the same occupational classification as the H1B worker. If the employer is providing " home country" benefits, }{\rtlch\fcs1 \ai\af1\afs22 \ltrch\fcs0 
+\i\fs22\dbch\af0\insrsid15272109\charrsid5178606 (this takes place when an employee is coming to the U.S. for less than 90 days, Employer can still offer the home country benefits)}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\dbch\af0\insrsid15272109\charrsid5178606 . A notation should be made in the PAF. The summary need not include proprietary information, including the costs of benefits to the Employer, or the details of stock options or incentive distributions.}{
+\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 6. If all employees are not offered the same benefits, a statement of how any differentiation of benefits is made.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 7. Evidence of (a) notification to the bargaining representative or (b) posting of notice of the LCA filing, including dates and locations of the posting.}{\rtlch\fcs1 
+\af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 8. Evidence that a copy of the LCA was given to the H1B worker on or before the first day of employment.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 9. If the Employer undergoes a change in corporate structure, a sworn statement by a responsible official of the new employing entity t
+hat it accepts all the obligations, liabilities and undertakings under the LCA filed by the predecessor, together with a list of each affected LCA and its date of certification, and a description of the actual wage system and EIN of the new employing enti
+ty.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 10.\~\~\~
+ A list of all of the petitioning employer's current exempt H1B nonimmigrant workers (if the employer is H1B Dependent, or a willful violator, and has indicated that\~this H1B nonimmigrant worker is exempt on the LCA).}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 These records must be maintained for a period of }{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 one year beyond the date of the LCA expiration, or one year from the withdrawal of the LCA, or one year from the last day of employment of the H1B worker under the LCA}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 .}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 IV. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 ATTESTATIONS AS TO WAGES}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 Actual Wage}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The first attestation
+ regarding the Actual Wage refers to the wage rate paid by the Employer to all other individuals with similar experience and qualifications for the H1B beneficiary's offered position. The following can be considered in determining the wage level: experien
+ce, qualifications, education, job responsibilities and functions, specialized knowledge, and other legitimate business factors.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Where there are other employees, with substantially similar experience and qualifications, as the position in question, the act
+ual wage shall be the wage paid to such other employees. If there are no other employees with similar experience and qualifications, then the actual wage is the wage paid to the H1B employee by the Employer.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 Prevailing Wage}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The Department of Labor regula
+tions do not require a specific methodology to determine the prevailing wage. The regulations specifically state that an employer may use the Office of Foreign Labor Certification (OFLC) National Processing Center (NPC) determination, independent authorit
+a
+tive source, or other legitimate source of data to determine the prevailing wage. Please note that a prevailing wage issued by the NPC cannot be challenged at a later date as it meets the Department of Labor's 'safe harbor' standard. However, in order to 
+m
+eet your request to promptly prepare and file the H1B petition, it is our office's standard practice to use the Department of Labor OES (Office of Employment Statistics)'s online wage library for determining prevailing wage for H1B employees rather than t
+h
+e NPC determination. Should you prefer our office to use a NPC determination, please notify us immediately, in writing, as it typically takes 30 days, after a request for prevailing wage is made, for the NPC to issue the prevailing wage. This will delay t
+he filing of the H1B petition.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+If the position is covered by a Collective Bargaining Agreement, the prevailing wage would be the wage stated in such an Agreement. If the DOL determines that the survey used by the Employer is not sufficient, the Employer ma
+y be liable for various penalties.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+It is a violation of the wage provisions if the H1B worker is required to reimburse or pay for attorney's fees or other costs related to the preparation and filing of the H1B petition, and, if after deducting these fees 
+or costs from the employee's wage the employee's wage would be below the wage required for the LCA, the Employer can be found to have violated the wage attestations.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 V. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 ATTESTATION AS TO WORKING CONDITIONS}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The
+ Employment of an H1B worker must not adversely affect the working conditions of workers similarly employed in the geographic location of intended employment. Working conditions include hours, shifts, vacation periods and fringe benefits. In the event of 
+a complaint, the Employer must present documentation to the DOL establishing that the working conditions of its H1B employees and similarly employed workers are similar to those within comparable business establishments.}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 VI. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 THE POSTING NOTICE}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 If there is no bargaining representative, the Employer, }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 
+on or within 30 days before the date the LCA is filed}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606  with the DOL, must provide notice of the filing of the LCA.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The notice should include the following:}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 1. That H1B workers are sought;}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 2. The number being sought;}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 3. The occupational classification;}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 4. The wages offered;}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 5. The period of employment;}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 6. The locations at which the H1B employee works; and}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 7. That the LCA is available for public inspection.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The notice must be posted in at least }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 two conspicuous lo
+cations at the work site for at least 10 consecutive days}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 . We will provide the Employer the required notice. The notice must contain the following statement.}{\rtlch\fcs1 
+\af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Complaints alleging misrepresentation of material facts in the labor condition application and/or
+ failure to comply with the terms of the labor condition application may be filed with any office of the Wage and Hour Division of the United States Department of Labor.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+For public and DOL inspection, the Employer must retain copies of the posted notice with a notation as to the dates and locations of posting. As previously mentioned, }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 
+\b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 the latest date that the notice must first be posted is the date the LCA is filed with DOL.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Once the employer receives, signs, and returns the H1B petition package, our firm
+ will file the LCA and email the employer the certified copy which must be printed, signed, and then either faxed back to our office (410.356.5669), or re-scanned and emailed back to the paralegal in order to file the H1B petition with USCIS. Please note 
+that you should begin the posting of the notice before you return the H1B petition package to our office.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li340\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin340\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+Please note that the notice requirement is the sole responsibility of the H1B employer and is not verified by our office.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+If there is a bargaining representative, the notice should be sent by certified mail, return receipt requested to that representative, and also contain the above recitation.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The LCA notice must be posted at each location where the H1B employee will be per
+forming services pursuant to his or her employment. These locations must be listed on LCA and on the H1B petition. }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The notification can also be made by electronic means. Posting on the Employer's home page or electronic bulletin board is allowed, if empl
+oyees have direct access to these resources. Posting must be by the means ordinarily used by the employer to communicate with its employees about job vacancies or promotion opportunities. }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 VII. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 EMPLOYER'S CONTINUING OBLIGATIONS}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Any material changes in th
+e employment described in the H1B petition require that a new LCA be filed. The general rule is that whenever a new LCA is required, a new H1B petition or an H1B amendment may also be required. }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 VIII. }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 CONCLUSION }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 This memorandum is designed to provide ba
+sic information regarding the LCA and does not provide case specific advice. Please schedule a consultation with an Attorney in our office should you not understand all or part of the contents of this memorandum or if you need case-specific questions answ
+ered regarding LCA obligations.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 We look forward to continuing to work with you throughout the H1B process.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 Actual Wage Memorandum}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [INSERT DATE]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 RE: }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [INSERT BENEFICIARY NAME]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 To be placed in the Labor Condition Application Public Access File}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+[INSERT COMPANY NAME] has approximately [INSERT # OF EMES] in the position of [INSERT POSITION TITLE], at the [INSERT ADDRESS OF ACTUAL WORK LOCATION] worksite. The wage range for these employees is between [INSERT RANGE OF WAGE/S].}{\rtlch\fcs1 
+\af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Within this range, an individual employee's salary is determined by careful consideration of the several factors, including, but not limited to:}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 ? Level of education required (ie. Bachelor degree, Master degree, etc.)}{
+\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 ? Years of related work experience}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 ? Length of employment and/or tenure within the company}{\rtlch\fcs1 
+\af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 ? Technical skills acquired}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 ? Contribution toward new customer acquisition/s}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 ? Language / communication abilities}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li737\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin737\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 ? Supervision of other employees}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 ? [INSERT ANY ADD'L FACTORS / SUBTRACT ANY UNUSED FACTORS LISTED ABOVE]}{
+\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The above factors were considered when calculating the actual wage for [INSERT BENEFICIARY NAME].}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Signed:}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [NAME]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [TITLE}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [INSERT COMPANY NAME]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 SUMMARY OF BENEFITS}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [DATE]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 RE: [BENEFICIARY NAME]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [PETITION
+ER NAME] offers [ALL / H1B / U.S. WORKER] employees [TYPE] health insurance. Employees may accept or waive this coverage. Upon acceptance, a deduction of $[AMOUNT] is taken from the employee's payroll. This plan [DOES / DOES NOT] include dental insurance.
+ }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 In addition to the above health coverage, each employee is afforded [#] paid holidays. [PETITIONER NAME] also [DESCRIPTION OF VACATION / SICK LEAVE POLICY]. }{\rtlch\fcs1 
+\af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Benefits offered to H1B workers are the same as those offered to U.S. workers.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Signed:}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [PETITIONER REPRESENTATIVE NAME]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [PETITIONER REPRESENTATIVE TITLE]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 PUBLIC ACCESS FILE CHECKLIST}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Within }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 one (1) working day}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\dbch\af0\insrsid15272109\charrsid5178606 
+ of filing the Labor Condition Application (LCA), the H1B petitioning employer must make available for public examination at its principle place of business or place of actual employment, all of the following documentation:}{\rtlch\fcs1 \af1\afs22 
+\ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ Copy of the original c
+ertified LCA, signed by the petitioning employer's representative}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ Statement of the actual wage rate to be paid to the H1B nonimmigrant, as provided for in the LCA}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ Copy of the prevailing wage determination (or Collective Bargaining Agreement [CBA], if applicable)}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ Memorandum explaining how the petitioning employer calculated the actual wage for the job (or CBA, if applicable)}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ Summary of the benefits offered to U.S. workers in the same or similar occupational classification as the H1B worker}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ If all employees do not receive the same benefits, a statement of the reasons for the differentiation in benefits}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ Copy of the notification provided to the bargaining representative (if applicable)}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ Copy of the posting notice/s of the LCA filing, including the date/s and location/s of the postings}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ Evidence that a copy of the certified LCA was given to the H1B employee no later than the date he/she reports to a place of work as stated on the LCA. }{
+\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 _______ If applicable, if the petitioning employer undergoes a change in corporate structure, a
+ sworn statement by a responsible official of the new employing entity, that it accepts all obligations, liabilities, and undertakings under the LCA/s filed by the predecessor entity, together with a list of each affected LCA and its certification date, a
+long with a description of the actual wage system and Federal Employer ID Number (FEIN) of the new employing entity.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }\pard \ltrpar\qj \li907\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin907\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 
+_______If the H1B nonimmigrant has been classified as exempt on the certified LCA, a list of all of the petitioning employer's current exempt H1B nonimmigrant workers (if applicable).}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li1077\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1077\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid5178606 {\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 The records mentioned herein must be maintained for a period of }{\rtlch\fcs1 
+\ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 one year beyond the date of expiration of the LCA, or for one year from the withdrawal of the LCA, or for one year from the last day of employment of the H1B worker under the LCA}{
+\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 .}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 Statement of Actual Rate of Pay}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [INSERT DATE]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af1\afs22 \ltrch\fcs0 \b\fs22\dbch\af0\insrsid15272109\charrsid5178606 RE: }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [INSERT BENEFICIARY NAME]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 To be place in the Labor Condition Application Public Access File.}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 Name of Employer / H1B Petitioner}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 :}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 Name of Employee / Beneficiary}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 :}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 Proffered Position Title}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 :}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\ul\dbch\af0\insrsid15272109\charrsid5178606 Actual Wage to be Paid}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 : }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 
+\fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 Signed:}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [INSERT NAME]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [INSERT TITLE]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 [INSERT COMPANY NAME]}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\dbch\af0\insrsid15272109\charrsid5178606 \line \line }{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par \~\~}{\rtlch\fcs1 \af1\afs22 \ltrch\fcs0 \fs22\insrsid15272109\charrsid5178606 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b030414000600080000002100b6f4679893070000c9200000160000007468656d652f7468656d652f
+7468656d65312e786d6cec59cd8b1bc915bf07f23f347d97f5d5ad8fc1f2a24fcfda33b6b164873dd648a5eef2547789aad28cc56208de532e81c026e49085bd
+ed21842cecc22eb9e48f31d8249b3f22afaa5bdd5552c99e191c3061463074977eefd5afde7bf5de53d5ddcf5e26d4bbc05c1096f6fcfa9d9aefe174ce16248d
+7afeb3d9a4d2f13d2151ba4094a5b8e76fb0f03fbbf7eb5fdd454732c609f6403e1547a8e7c752ae8eaa5531876124eeb0154ee1bb25e30992f0caa3ea82a34b
+d09bd06aa3566b55134452df4b51026a1f2f97648ebd9952e9dfdb2a1f53784da5500373caa74a35b6243476715e5708b11143cabd0b447b3eccb3609733fc52
+fa1e4542c2173dbfa6fffceabdbb5574940b517940d6909be8bf5c2e17589c37f49c3c3a2b260d823068f50bfd1a40e53e6edc1eb7c6ad429f06a0f91c569a71
+b175b61bc320c71aa0ecd1a17bd41e35eb16ded0dfdce3dc0fd5c7c26b50a63fd8c34f2643b0a285d7a00c1feee1c3417730b2f56b50866fede1dbb5fe28685b
+fa3528a6243ddf43d7c25673b85d6d0159327aec8477c360d26ee4ca4b144443115d6a8a254be5a1584bd00bc6270050408a24493db959e1259a43140f112567
+9c7827248a21f056286502866b8ddaa4d684ffea13e827ed5174849121ad780113b137a4f87862cec94af6fc07a0d537206f7ffef9cdeb1fdfbcfee9cd575fbd
+79fdf77c6eadca923b466964cafdf2dd1ffef3cd6fbd7ffff0ed2f5fff319b7a172f4cfcbbbffdeedd3ffef93ef5b0e2d2146ffff4fdbb1fbf7ffbe7dfffebaf
+5f3bb4f7393a33e1339260e13dc297de5396c0021dfcf119bf9ec42c46c494e8a791402952b338f48f656ca11f6d10450edc00db767cce21d5b880f7d72f2cc2
+d398af2571687c182716f094313a60dc6985876a2ec3ccb3751ab927e76b13f714a10bd7dc43945a5e1eaf579063894be530c616cd2714a5124538c5d253dfb1
+738c1dabfb8210cbaea764ce99604be97d41bc01224e93ccc899154da5d03149c02f1b1741f0b7659bd3e7de8051d7aa47f8c246c2de40d4417e86a965c6fb68
+2d51e252394309350d7e8264ec2239ddf0b9891b0b099e8e3065de78818570c93ce6b05ec3e90f21cdb8dd7e4a37898de4929cbb749e20c64ce4889d0f6394ac
+5cd829496313fbb938871045de13265df05366ef10f50e7e40e941773f27d872f787b3c133c8b026a53240d4376beef0e57dccacf89d6ee8126157aae9f3c44a
+b17d4e9cd131584756689f604cd1255a60ec3dfbdcc160c05696cd4bd20f62c82ac7d815580f901dabea3dc5027a25d5dcece7c91322ac909de2881de073bad9
+493c1b9426881fd2fc08bc6eda7c0ca52e7105c0633a3f37818f08f480102f4ea33c16a0c308ee835a9fc4c82a60ea5db8e375c32dff5d658fc1be7c61d1b8c2
+be04197c6d1948eca6cc7b6d3343d49aa00c9819822ec3956e41c4727f29a28aab165b3be596f6a62ddd00dd91d5f42424fd6007b4d3fb84ffbbde073a8cb77f
+f9c6b10f3e4ebfe3566c25ab6b763a8792c9f14e7f7308b7dbd50c195f904fbfa919a175fa04431dd9cf58b73dcd6d4fe3ffdff73487f6f36d2773a8dfb8ed64
+7ce8306e3b99fc70e5e3743265f3027d8d3af0c80e7af4b14f72f0d46749289dca0dc527421ffc08f83db398c0a092d3279eb838055cc5f0a8ca1c4c60e1228e
+b48cc799fc0d91f134462b381daafb4a492472d591f0564cc0a1911e76ea5678ba4e4ed9223becacd7d5c16656590592e5782d2cc6e1a04a66e856bb3cc02bd4
+6bb6913e68dd1250b2d721614c6693683a48b4b783ca48fa58178ce620a157f65158741d2c3a4afdd6557b2c805ae115f8c1edc1cff49e1f06200242701e07cd
+f942f92973f5d6bbda991fd3d3878c69450034d8db08283ddd555c0f2e4fad2e0bb52b78da2261849b4d425b46377822869fc17974aad1abd0b8aeafbba54b2d
+7aca147a3e08ad9246bbf33e1637f535c8ede6069a9a9982a6de65cf6f35430899395af5fc251c1ac363b282d811ea3717a211dcbccc25cf36fc4d32cb8a0b39
+4222ce0cae934e960d122231f728497abe5a7ee1069aea1ca2b9d51b90103e59725d482b9f1a3970baed64bc5ce2b934dd6e8c284b67af90e1b35ce1fc568bdf
+1cac24d91adc3d8d1797de195df3a708422c6cd795011744c0dd413db3e682c0655891c8caf8db294c79da356fa3740c65e388ae62945714339967709dca0b3a
+faadb081f196af190c6a98242f8467912ab0a651ad6a5a548d8cc3c1aafb6121653923699635d3ca2aaa6abab39835c3b60cecd8f26645de60b53531e434b3c2
+67a97b37e576b7b96ea74f28aa0418bcb09fa3ea5ea12018d4cac92c6a8af17e1a56393b1fb56bc776811fa07695226164fdd656ed8edd8a1ae19c0e066f54f9
+416e376a6168b9ed2bb5a5f5adb979b1cdce5e40f2184197bba6526857c2c92e47d0104d754f92a50dd8222f65be35e0c95b73d2f3bfac85fd60d80887955a27
+1c57826650ab74c27eb3d20fc3667d1cd66ba341e31514161927f530bbb19fc00506dde4f7f67a7cefee3ed9ded1dc99b3a4caf4dd7c5513d777f7f5c6e1bb7b
+8f40d2f9b2d598749bdd41abd26df627956034e854bac3d6a0326a0ddba3c9681876ba9357be77a1c141bf390c5ae34ea5551f0e2b41aba6e877ba9576d068f4
+8376bf330efaaff23606569ea58fdc16605ecdebde7f010000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468656d65
+2f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4350d36
+3f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d262452282e
+3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe514173d985
+0528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c020000130000000000000000000000
+0000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b00000000000000000000
+000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c0000000000000000000000000019020000
+7468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d0014000600080000002100b6f4679893070000c92000001600000000000000
+000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b01000027000000
+000000000000000000009d0a00007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000980b00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax376\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 5;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 9;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 1;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 2;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 4;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 5;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 7;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 8;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 header;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footer;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index heading;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of figures;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope return;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation reference;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 line number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 page number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of authorities;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 macro;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 toa heading;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 5;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Closing;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Signature;\lsdsemihidden1 \lsdlocked0 Default Paragraph Font;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Salutation;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Date;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Note Heading;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Block Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 FollowedHyperlink;\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;
+\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Document Map;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Plain Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 E-mail Signature;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal (Web);\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Acronym;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Cite;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Code;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Definition;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Keyboard;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Preformatted;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Sample;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Typewriter;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Table;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Contemporary;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Elegant;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Professional;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdpriority39 \lsdlocked0 Table Grid;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Theme;\lsdsemihidden1 \lsdlocked0 Placeholder Text;
+\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;
+\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;
+\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;\lsdpriority61 \lsdlocked0 Light List Accent 1;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdsemihidden1 \lsdlocked0 Revision;
+\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;
+\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;\lsdpriority72 \lsdlocked0 Colorful List Accent 1;
+\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;
+\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;
+\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;
+\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;
+\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;\lsdpriority41 \lsdlocked0 Plain Table 1;\lsdpriority42 \lsdlocked0 Plain Table 2;\lsdpriority43 \lsdlocked0 Plain Table 3;\lsdpriority44 \lsdlocked0 Plain Table 4;
+\lsdpriority45 \lsdlocked0 Plain Table 5;\lsdpriority40 \lsdlocked0 Grid Table Light;\lsdpriority46 \lsdlocked0 Grid Table 1 Light;\lsdpriority47 \lsdlocked0 Grid Table 2;\lsdpriority48 \lsdlocked0 Grid Table 3;\lsdpriority49 \lsdlocked0 Grid Table 4;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 1;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 1;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 1;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 1;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 1;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 2;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 2;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 2;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 2;
+\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 3;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 3;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 3;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 3;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 3;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 4;
+\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 4;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 4;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 4;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 4;
+\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 4;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 5;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 5;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 5;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 5;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 5;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 6;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 6;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 6;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 6;
+\lsdpriority46 \lsdlocked0 List Table 1 Light;\lsdpriority47 \lsdlocked0 List Table 2;\lsdpriority48 \lsdlocked0 List Table 3;\lsdpriority49 \lsdlocked0 List Table 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful;\lsdpriority52 \lsdlocked0 List Table 7 Colorful;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 List Table 2 Accent 1;\lsdpriority48 \lsdlocked0 List Table 3 Accent 1;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 1;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 1;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 1;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 List Table 2 Accent 2;\lsdpriority48 \lsdlocked0 List Table 3 Accent 2;\lsdpriority49 \lsdlocked0 List Table 4 Accent 2;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 2;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 3;
+\lsdpriority47 \lsdlocked0 List Table 2 Accent 3;\lsdpriority48 \lsdlocked0 List Table 3 Accent 3;\lsdpriority49 \lsdlocked0 List Table 4 Accent 3;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 3;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 4;\lsdpriority47 \lsdlocked0 List Table 2 Accent 4;
+\lsdpriority48 \lsdlocked0 List Table 3 Accent 4;\lsdpriority49 \lsdlocked0 List Table 4 Accent 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 4;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 4;
+\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 List Table 2 Accent 5;\lsdpriority48 \lsdlocked0 List Table 3 Accent 5;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 5;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 5;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 5;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 List Table 2 Accent 6;\lsdpriority48 \lsdlocked0 List Table 3 Accent 6;\lsdpriority49 \lsdlocked0 List Table 4 Accent 6;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Mention;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hashtag;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Unresolved Mention;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Link;}}{\*\datastore 01050000
+02000000180000004d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e50000000000000000000000003064
+89776a14d601feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}

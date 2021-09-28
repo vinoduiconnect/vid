@@ -1,0 +1,36 @@
+---
+label: Career Opportunity
+hide_body: false
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Position title
+  description: User-friendly title of the position
+- name: isActive
+  type: boolean
+  label: Current Opportunity?
+  description: Is this position open?
+  default: true
+- name: lede
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Overview
+  description: Short overview of the content
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+  description: This is the base url for the page. (/page). Leave blank to use the
+    page title/heading for the slug
+pages:
+- content/careers/information-management-senior-consultant.md
+- content/careers/information-management-specialist-rockville-md.md

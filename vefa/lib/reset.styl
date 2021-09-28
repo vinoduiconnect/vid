@@ -1,0 +1,171 @@
+reset()
+    //  box sizing rules
+    *,
+    *::before,
+    *::after
+        background-repeat: no-repeat
+        box-sizing: border-box
+        font-size: 100%
+
+    //  remove default margin
+    //  remove default padding
+    blockquote,
+    body,
+    dd,
+    dl,
+    figcaption,
+    figure,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    li,
+    nav,
+    ol,
+    p,
+    ul
+        margin: 0
+        padding: 0
+        list-style: none
+
+    html
+        font-size: 100%
+        height: 100%
+        text-size-adjust: 100%
+
+
+    //  set core body defaults
+    body
+        min-height: 100vh
+        scroll-behavior: smooth
+        text-rendering: optimizeSpeed
+        line-height: 1.5
+
+    address
+        font-style: normal
+
+    h1
+    h2,
+    h3,
+    h4,
+    h5,
+    h6
+        font-family: inherit
+        font-weight: inherit
+
+    hr
+        border: 0
+        padding: 0
+        margin: 0
+
+    //  make images easier to work with
+    img
+        max-width: 100%
+        display: blockquote
+
+    svg
+        display: block
+        fill: currentColor
+
+        a
+            fill: currentColor
+
+    form
+        :focus
+            outline: 0
+
+        ::-moz-focus-inner
+            padding: 0
+            border: 0
+
+    fieldset
+        border: 0
+
+    textarea,
+    [type="text"]
+        cursor: initial
+
+    [type="checkbox"],
+    [type="radio"]
+        position: static
+        width: auto
+        padding: 0
+
+    button,
+    input,
+    select,
+    textarea
+        margin: 0
+        vertical-align: middle
+        border: 0
+        border-radius: 0
+        cursor: pointer
+        text-decoration: none
+
+
+    //  link elements that don't have a class get default styles
+    a
+        text-decoration: none
+
+        &:not([class])
+            text-decoration-skip-ink: auto
+
+    a,
+    button,
+    label,
+    [role="button"]
+        cursor: pointer
+
+    [type="url"]
+        cursor: text
+
+
+    //  Inherit fonts for inputs and buttons
+    a,
+    abbr,
+    button,
+    cite,
+    input,
+    select,
+    span,
+    textarea
+        color: inherit
+        font: inherit
+        letter-spacing: inherit
+        text-align: inherit
+        text-transform: inherit
+
+
+    button
+        -moz-appearance: none
+        -webkit-appearance: none
+        appearance: none
+        background: none
+        padding: 0
+        text-align: center
+        user-select: none
+        white-space: nowrap
+        width: auto
+
+        &:active,
+        &:focus,
+        &:hover
+            outline: 0
+            text-decoration: none
+
+
+    :disabled,
+    [disabled],
+    .is-disabled
+        cursor: default
+
+
+    //  Remove all animations and transitions for people that prefer not to see them
+    @media (prefers-reduced-motion: reduce)
+        *
+            animation-duration: 0.01ms !important
+            animation-iteration-count: 1 !important
+            transition-duration: 0.01ms !important
+            scroll-behavior: auto !important

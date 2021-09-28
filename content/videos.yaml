@@ -1,0 +1,10 @@
+---
+videos:
+- Blurred People
+- Busy Highway
+- Morning Sunshine
+
+videoMap:
+- ["Blurred People", "peopleBlur.720p.mp4"]
+- ["Busy Highway", "highway1.720p.mp4"]
+- ["Morning Sunshine", "morning-sunshine.720p.mp4"]

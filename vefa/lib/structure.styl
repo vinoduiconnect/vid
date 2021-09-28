@@ -1,0 +1,25 @@
+// ==========================================================================
+// Max Content Width
+//
+// Allows for centered content regions with full windowed backgrounds
+//
+//
+max-content-width(max_content, lower_bound=null)
+    // computed
+    computed_fence = max_content
+    computed_fence = computed_fence + lower_bound*2 if lower_bound
+
+    +over(computed_fence)
+        padding-left: 'calc( (100vw - %s)/2 )' % max_content
+        padding-right: @padding-left
+
+
+
+
+// ==========================================================================
+// Square dimensions
+//
+//
+sq(arg)
+    height: arg
+    width: arg

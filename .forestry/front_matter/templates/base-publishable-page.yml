@@ -1,0 +1,27 @@
+---
+label: Base Publishable Page
+hide_body: false
+fields:
+- name: pageDefaults
+  type: include
+  config: {}
+  template: base-site-page
+  label: pageDefaults
+- name: isActive
+  type: boolean
+  label: Published
+  description: Is this page published to the website?
+  default: false
+- name: publishDate
+  type: datetime
+  label: Publish Date
+  description: Date this content was published on
+  config:
+    required: true
+    date_format: MM/DD/YYYY
+    time_format: 
+    display_utc: false
+    export_format: MM/DD/YYYY
+  default: now
+  showOnly:
+    value: true

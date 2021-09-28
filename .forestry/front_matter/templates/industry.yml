@@ -1,0 +1,39 @@
+---
+label: Industry
+hide_body: false
+fields:
+- type: text
+  name: contentType
+  label: contentType
+  hidden: true
+- name: pageDefaults
+  type: include
+  config: {}
+  template: base-site-page
+  label: Page Defaults
+- type: boolean
+  name: isActive
+  label: Active Industry
+  description: Is this industry visible on the site?
+- type: textarea
+  name: lede
+  label: Overview
+  description: Short overview of the supported industry
+- type: list
+  name: appliedCapabilities
+  label: Industry Capabilities
+  description: What are some examples of PCGI capabilities in use?
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: capabilities
+- name: cross-link
+  type: include
+  config: {}
+  template: cross-link-content
+  label: Cross-link
+pages:
+- content/industries/aviation.md
+- content/industries/government.md
+- content/industries/life-sciences.md

@@ -1,0 +1,58 @@
+// .reset{":"}control
+//     +at-class()
+//         --active-bg: transparent
+//         --active-fg: currentColor
+//         --active-edge: currentColor
+
+
+.control{":"}
+    +at-class()
+        --active-bg: transparent
+        --active-fg: currentColor
+        --active-edge: currentColor
+        --rxn-bg: var(--active-bg)
+        --rxn-fg: var(--active-fg)
+        background-color: var(--active-bg, transparent)
+        color: var(--active-fg)
+        border-color: var(--active-edge)
+
+        +on-all-states()
+            background-color: var(--rxn-bg)
+            color: var(--rxn-fg)
+            border-color: var(--rxn-edge)
+
+        +on-hover()
+                --saturateFx: var(--parentSaturateFx, 1.75)
+
+        +on-active()
+            --saturateFx: var(--parentSaturateFx, .75)
+
+    &primary
+        +at-class()
+            --saturateFx: var(--parentSaturateFx, 1)
+            --active-bg: transparent
+            --active-fg: var(--color-primary)
+            --active-edge: var(--color-primary-tint)
+            filter: saturate(var(--saturateFx))
+
+        &--shade
+            +at-class()
+                --saturateFx: var(--parentSaturateFx, 1)
+                --active-bg: var(--color-primary)
+                --active-fg: var(--color-bright)
+                filter: saturate(var(--saturateFx))
+
+    &secondary
+        +at-class()
+            --saturateFx: var(--parentSaturateFx, 1)
+            --active-bg: transparent
+            --active-fg: var(--color-secondary)
+            --active-edge: var(--color-secondary-tint)
+            filter: saturate(var(--saturateFx))
+
+        &--shade
+            +at-class()
+                --saturateFx: var(--parentSaturateFx, 1)
+                --active-bg: var(--color-secondary)
+                --active-fg: var(--color-bright)
+                filter: saturate(var(--saturateFx))

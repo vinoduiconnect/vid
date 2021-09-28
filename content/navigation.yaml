@@ -1,0 +1,83 @@
+---
+primary:
+  routes:
+  - label: Industries
+    actionLabel: Industries
+    slug: industries
+  - label: Capabilities
+    actionLabel: Capabilities
+    slug: capabilities
+  - label: Insights
+    slug: insights
+  - label: About PCGI
+    slug: about-us
+
+sitemap:
+    routes:
+    -   label: Work with PCGI
+        slug: "#"
+    -   label: Contact PCGI
+        slug: "#"
+    -   label: Careers
+        slug: /careers
+    -   label: Industries
+        slug: "#industries"
+        subnav:
+            routes:
+                -   label: Government
+                    slug: "#industries"
+                -   label: Life Sciences
+                    slug: "#industries"
+                -   label: Aviation
+                    slug: "#industries"
+
+    -   label: Capabilities
+        slug: "#capabilities"
+        subnav:
+            routes:
+                -   label: Master Data Management
+                    slug: "#capabilities"
+                -   label: Sales & Marketing
+                    slug: "#capabilities"
+                -   label: Data & Analytics
+                    slug: "#capabilities"
+                -   label: Digital
+                    slug: "#capabilities"
+                -   label: Artificial Intelligence
+                    slug: "#capabilities"
+    -   label: Insights
+        slug: "#insights"
+        # subnav:
+        #     routes:
+        #         -   label: Methodologies
+        #             slug: "#insights"
+        #         -   label: Success Stories
+        #             slug: "#insights"
+        #         -   label: News
+        #             slug: "#insights"
+        #         -   label: Events
+        #             slug: "#insights"
+
+    # -   label: About PCGI
+    #     slug: "#about"
+    #     # subnav:
+    #     #     routes:
+    #     #         -   label: The PCGI Purpose
+    #     #             slug: /
+    #     #         -   label: Leadership
+    #     #             slug: /
+    #     #         -   label: Team
+    #     #             slug: /
+    #     #         -   label: Partners
+    #     #             slug: /
+    #     #         -   label: Certifications
+    #     #             slug: /
+
+tertiary:
+  routes:
+  - id: legal
+    label: Terms & Conditions
+    slug: "#"
+  - id: privacy-policy
+    label: Privacy Policy
+    slug: "#"

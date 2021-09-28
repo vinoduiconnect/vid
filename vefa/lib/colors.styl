@@ -1,0 +1,32 @@
+split-color(c)
+    localHue = round(hue(c), 3)
+    localSat = round(saturation(c), 3)
+    localLux = round(lightness(c), 3)
+    localAlpha = round(alpha(c), 3)
+
+    return localHue localSat localLux localAlpha
+
+
+convert-bg(c)
+    "hsla(var(--hue-bg, %s), var(--sat-bg, %s), var(--lux-bg, %s), var(--alpha-bg, %s))" % (split-color(c))
+
+
+convert-fg(c)
+    "hsla(var(--hue-fg, %s), var(--sat-fg, %s), var(--lux-fg, %s), var(--alpha-fg, %s))" % (split-color(c))
+
+
+convert-color(c)
+    "hsla(var(--hue-color, %s), var(--sat-color, %s), var(--lux-color, %s), var(--alpha-color, %s))" % (split-color(c))
+
+
+
+shift-lux(color, shift)
+    lightness(color, lightness(color) + unit(shift, "%"))
+
+
+shift-alpha(color, shift)
+    alpha(color, alpha(color) + unit(shift, "%"))
+
+
+shift-saturation(color, shift)
+    saturation(color, saturation(color) + unit(shift, "%"))

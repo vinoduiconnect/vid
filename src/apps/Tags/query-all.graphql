@@ -1,0 +1,13 @@
+query {
+    tags: allTags {
+        tag: edges {
+            node {
+                id
+                title
+     		    link {
+                    path
+                }
+            }
+        }
+    }
+}

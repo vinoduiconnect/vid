@@ -1,0 +1,18 @@
+query {
+    content: allCareers (
+        filter: { isActive: { eq: true } }
+        sortBy: "title"
+        order: ASC
+    ) {
+        edges {
+            node {
+                path
+                title
+                content
+                # crossLink {
+                #     lede
+                # }
+            }
+        }
+    }
+}

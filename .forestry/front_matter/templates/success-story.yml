@@ -1,0 +1,27 @@
+---
+label: Success Story
+hide_body: false
+display_field: title
+fields:
+- name: contentType
+  type: text
+  config:
+    required: false
+  label: contentType
+  hidden: true
+  default: success story
+- name: pageDefaults
+  type: include
+  config: {}
+  template: base-publishable-page
+  label: pageDefaults
+- name: author
+  type: include
+  config: {}
+  template: author
+  label: Author
+- name: categories
+  type: include
+  config: {}
+  template: content-categories
+  label: Content Categories

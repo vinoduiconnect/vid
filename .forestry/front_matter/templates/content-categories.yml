@@ -1,0 +1,46 @@
+---
+label: Content Categories
+hide_body: true
+fields:
+- name: categories
+  type: field_group
+  config: {}
+  fields:
+  - name: appliedIndustry
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: industries
+        file: 
+        path: 
+    label: Applicable Industry
+    description: This content supports which industry?
+  - name: appliedCapability
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: capabilities
+        file: 
+        path: 
+    label: Applicable Capability
+    description: This content supports which capability?
+  - name: tags
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: tags
+    label: Tags
+    description: Tags that describe your content; the first tag will be shown in cross-links
+  label: Content Categories

@@ -1,0 +1,51 @@
+pseudo-self()
+    &,
+    &::after,
+    &::before
+        { block }
+
+
+.is-disabled
+[disabled]
+    filter: grayscale(1) opacity(.5)
+    pointer-events: none
+
+
+fx{":"}
+    +at-class()
+        +pseudo-self()
+            --fx-delay: 0s
+            transition-delay: var(--fx-delay)
+            transition-property: all
+            transition-duration: var(--fx-time)
+            transition-timing-function: var(--fx-func)
+
+    &shift
+        +at-class()
+            +pseudo-self()
+                transition-property: all
+
+    &shift--motif
+        +at-class()
+            +pseudo-self()
+                transition-property: background-color, border-color, color, fill
+
+    &containRxn
+        +at-class()
+            pointer-events: none
+
+            > *
+                pointer-events: auto
+
+    //  increase the hit area for links and such
+    &bounds
+        +at-all-breaks()
+            &::before
+                content: ""
+                display: block
+                background: transparent
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0

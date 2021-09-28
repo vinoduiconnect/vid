@@ -1,0 +1,82 @@
+# ++++++++++++++++++++++++++++++++++++++
+# Data and Resources
+# ++++++++++++++++++++++++++++++++++++++
+"@content": "@/../content"
+"@res": "@/res"
+"@data": "@/data"
+"@themes": "@/../themes"
+"@icons": "@themes/icons"
+"@static": "@/../static"
+"@vefa": "@/../vefa"
+"@views": "@/views"
+
+# ++++++++++++++++++++++++++++++++++++++
+# Main code libraries
+# ++++++++++++++++++++++++++++++++++++++
+"@apps": "@/apps"
+"@components": "@/components"
+
+# ++++++++++++++++++++++++++++++++++++++
+# Site utils and service APIs
+# ++++++++++++++++++++++++++++++++++++++
+"@compose": "@vue/composition-api"
+"@features": "@/features"
+"@sources": "@/sources"
+"@utils": "@/utils"
+"@store": "@data/store.js"
+
+
+"@useGridsome": "@features/useGridsome.js"
+"@useVefa": "@vefa/utils/useVefa.js"
+"@useVefaStyles": "@vefa/utils/useVefaStyles.js"
+"@useRouter": "@features/useRouter.js"
+"@useBreakpoints": "@features/useBreakpoints.js"
+
+# # ++++++++++++++++++++++++++++++++++++++
+# # Vefa / Vue helpers
+# # ++++++++++++++++++++++++++++++++++++++
+"@renderlessTemplate": "@/utils/renderlessTemplate.js"
+# "@InterfaceBlock": "@Blocks/InterfaceBlock"
+# "@InterfaceCard": "@Cards/InterfaceCard"
+# "@InterfaceControl": "@Controls/InterfaceControl"
+# "@InterfaceForm": "@Forms/InterfaceForm"
+# "@InterfaceStrata": "@Strata/InterfaceStrata"
+# "@styleinject": "@/utils/VefaStyleInjector.js"
+
+
+# ++++++++++++++++++++++++++++++++++++++
+# Components
+# ++++++++++++++++++++++++++++++++++++++
+"@Blocks": "@components/Blocks"
+"@Cards": "@components/Cards"
+"@Contacts": "@components/Contacts"
+"@Controls": "@components/Controls"
+"@Fields": "@components/Fields"
+"@Forms": "@components/Forms"                   # used to process and set up interactive forms
+"@Lists": "@components/Lists"
+"@Media": "@components/Media"
+"@Navigation": "@components/Navigation"
+"@Notifications": "@components/Notifications"   # used for in-page notifications
+"@Strata": "@components/Strata"
+"@Transitions": "@components/Transitions"
+
+# ++++++++++++++++++++++++++++++++++++++
+# Apps
+# ++++++++++++++++++++++++++++++++++++++
+"@Capabilities": "@apps/Capabilities"
+"@Careers": "@apps/Careers"
+"@Company": "@apps/Company"
+"@Events": "@apps/Events"
+"@Forms": "@apps/Forms"
+"@Industries": "@apps/Industries"
+"@Insights": "@apps/Insights"
+"@Landing": "@apps/Landing"
+"@Methodologies": "@apps/Methodologies"
+"@News": "@apps/News"
+"@Pages": "@apps/Pages"
+"@PressReleases": "@apps/PressReleases"
+"@Runners": "@apps/Runners"               # components that act as site/app header and footer
+"@Site": "@apps/Site"
+"@Snippets": "@apps/Snippets"
+"@SuccessStories": "@apps/SucccessStories"
+"@Tags": "@apps/Tags"

@@ -1,0 +1,58 @@
+extendedNavControl:
+    element:
+        class: color:shade fx:shift
+        at-base: aspect:xyEq150--text
+
+    icon:
+        at-base: aspect:xyEq150--text
+
+    label:
+        at-base: optics:a11y
+
+extendedNavCloseControl:
+    element:
+        class: color:secondary--hilite fx:shift
+        at-base: aspect:xyEq150--text
+
+    icon:
+        at-base: aspect:xyEq150--text
+
+    label:
+        at-base: optics:a11y
+
+formField:
+    element:
+        at-base: module:static flex:v--p:start--s:start rhy:yStart25
+        at-economy: grid:v--p:start--s:full
+
+    body:
+        class: edge:yEnd--set:edgeNeutral fx:shift
+        at-base: module:static grid:v aspect:xEq100--pct
+
+    label:
+        class: type:minor--face:copy--case:upper color:neutral edge:yEnd--set:edgeNeutral
+        at-base: flex:h--p:start--s:start pad:xEq50 pad:yStart25
+
+    required:
+        class: type:minor--weight:700 color:dissent
+        at-base: module:static--self:yStart pad:xStart25
+
+    helpText:
+        class: type:chrome--face:copy color:neutral
+        at-base: pad:xEq50 pad:yEq25
+
+    errorText:
+        element:
+            class: type:chrome--face:copy edge:xyEq--set:edgeWarn color:dissent fx:shift
+            at-base: module:static flex:h--p:start--s:base pad:xEq50 pad:yEq50 rhy:xStart25
+
+        label:
+            class: type--weight:700
+
+    textInput:
+        class: type--face:copy--weight:300 color:primary
+        at-base: aspect:xEq100--pct pad:xEq50
+
+    textareaInput:
+        class: type--face:copy--weight:300 color:dark fx:shift
+        at-base: aspect:xEq100--pct pad:xEq50

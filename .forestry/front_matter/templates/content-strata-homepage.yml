@@ -1,0 +1,172 @@
+---
+label: Content Strata (Homepage)
+hide_body: true
+display_field: type
+fields:
+- name: type
+  type: select
+  default: Insights
+  config:
+    required: false
+    options:
+    - Industries
+    - Capabilities
+    - Insights
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Content Type
+  description: Which section of the site do you want to highlight?
+- name: industriesStrata
+  type: field_group
+  config: {}
+  fields:
+  - name: page
+    type: select
+    default: content/pages/industries.yaml
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: sitemap
+        file: 
+        path: 
+    label: Linked Page
+    hidden: true
+  - name: crossLinks
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 3
+      source:
+        type: pages
+        section: industries
+    label: Linked Industries
+    description: Which Industries to showcase?
+  - name: learnMore
+    type: field_group
+    config: {}
+    fields:
+    - name: hed
+      type: text
+      config:
+        required: false
+      label: Card Title
+      default: Learn more.
+    - name: media
+      type: file
+      config:
+        maxSize: 64
+      label: Background Image
+    label: Learn More
+    description: Links to section
+  showOnly:
+    field: type
+    value: Industries
+  label: Industries Strata Content
+- name: capabilitiesStrata
+  type: field_group
+  config: {}
+  fields:
+  - name: page
+    type: select
+    default: content/pages/capabilities.yaml
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: sitemap
+        file: 
+        path: 
+    label: Linked Page
+    hidden: true
+  - name: crossLinks
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: pages
+        section: capabilities
+    label: Linked Capabilities
+    description: Which capabilities to hightlight?
+  - name: learnMore
+    type: field_group
+    config: {}
+    fields:
+    - name: hed
+      type: text
+      config:
+        required: false
+      label: Card Title
+      default: Learn more.
+    - name: lede
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Card Teaser
+    label: Learn More
+    description: Links to section
+  label: Capabilities Strata Content
+  showOnly:
+    field: type
+    value: Capabilities
+- name: insightsStrata
+  type: field_group
+  config: {}
+  fields:
+  - name: page
+    type: select
+    default: content/pages/insights.yaml
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: sitemap
+        file: 
+        path: 
+    label: Linked Page
+    hidden: true
+  - name: spotlight
+    type: field_group_list
+    fields:
+    - name: spotlightCards
+      type: include
+      config: {}
+      template: cross-link-card
+      label: Spotlight Cards
+    config:
+      min: 
+      max: 2
+      labelField: hed
+    label: Spotlight Cross-links
+    description: Large-format cards
+  - name: crossLinks
+    type: field_group_list
+    fields:
+    - name: crossLinkCards
+      type: include
+      config: {}
+      template: cross-link-card
+      label: Cross-link Cards
+    config:
+      min: 
+      max: 4
+      labelField: hed
+    label: Additional Cross-links
+    description: Additional content to link to
+  label: Insights Strata Content
+  showOnly:
+    field: type
+    value: Insights

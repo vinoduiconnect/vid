@@ -1,0 +1,212 @@
+//  ==========================================================================
+//  Base Vertical Rhythm
+
+flow(value=null)
+    if value == 0
+        return 0
+
+    multiplier = 16px
+    multiplier = baseVerticalRhythm if baseVerticalRhythm is defined
+
+    if value
+            return floor( multiplier * value )
+    else
+        return multiplier
+
+
+ratio(value=null)
+    if value == 0
+        return 0
+
+    multiplier = 16px
+    multiplier = baseVerticalRhythm if baseVerticalRhythm is defined
+
+    if value
+            return floor( multiplier * value )
+    else
+        return multiplier
+
+    // multiplier = baseVerticalRhythm ? baseVerticalRhythm : 16px
+
+    // if value
+    //         return floor( multiplier * value )
+    // else
+    //     return multiplier
+
+
+
+//  ==========================================================================
+//  Percentage
+
+percent( numerator, denominator )
+    return unit( (numerator/denominator) * 100, "%")
+
+
+
+//  ==========================================================================
+//  Square Root
+sqrt(x)
+    return math(x, 'sqrt')
+
+
+
+//  ==========================================================================
+//  Responsive Fences Attribute Styling
+$sel(selector)
+    tempSel = selector
+    selectorLength = length(selector)
+
+    splitSelector = split(" ", selector)
+    splitSelectorLength = length(splitSelector)
+    hasSplitSelectors = (selectorLength != splitSelectorLength)
+
+    if hasSplitSelectors
+        selector = "%s" % selector
+        selector = split(" ", selector)
+        selector = pop(selector)
+        selector = join("", selector)
+
+    selector = replace("\'", "", selector)
+    selector = replace("\.", "", selector)
+    selector = replace(" ", "", selector)
+
+    return selector hasSplitSelectors
+
+
+//  needs some real world testing as this could be "too specific"
+at-class(localName=null)
+    selectorSetup = $sel( selector() )
+    selector = selectorSetup[0]
+    hasSplitSelectors = selectorSetup[1]
+
+    if !hasSplitSelectors and !localName
+        /[class*={s("%s", selector )}]
+            //  ^[-1][class*={s("%s", selector )}]
+            //  --> not needed as we are attaching to the parent declarations
+            {block}
+    else
+        if localName
+            // [class*={s("%s", localName )}],
+            &[class*={s("%s", localName )}]
+                {block}
+        else
+            // /^[-1] [class*={s("%s", selector )}],
+            ^[-1][class*={s("%s", selector )}]
+                {block}
+
+
+at-breaks($types=null)
+    selectorSetup = $sel( selector() )
+    selector = selectorSetup[0]
+    hasSplitSelectors = selectorSetup[1]
+
+    if !$types
+        $types = breakpoints
+
+    for $type in $types
+        if breakpoints[$type]
+            if (breakpoints[$type] == 0px)
+                if !hasSplitSelectors
+                    /[at-{$type}*={s("%s", selector)}]
+                        //  ^[-1][at-{$type}*={s("%s", selector)}]
+                        //  --> not needed as we are attaching to the parent declaration
+                        {block}
+                else
+                    /^[-1][at-{$type}*={s("%s", selector)}]
+                    /^[-1] [at-{$type}*={s("%s", selector)}]
+                        {block}
+            else
+                if !hasSplitSelectors
+                    +over( $type )
+                        /[at-{$type}*={s("%s", selector)}]
+                            {block}
+                else
+                    /^[-1][at-{$type}*={s("%s", selector)}]
+                    /^[-1] [at-{$type}*={s("%s", selector)}]
+                        test: adas
+                        {block}
+
+
+at-all-breaks($types=null)
+    +at-class()
+        { block }
+
+    +at-breaks($types)
+        { block }
+
+
+
+
+
+// at-class(localName="")
+//     &{ s('[class*="%s"]', unquote(localName)) },
+//     { s('[class*="%s"]', unquote(localName)) }
+//         { block }
+
+
+// at-breaks(localName="", $types=null)
+//     if !$types
+//         $types = breakpoints
+
+//     for $type in $types
+//         if breakpoints[$type]
+//             if (breakpoints[$type] == 0px)
+//                 &[at-{$type}*={s("%s", localName)}],
+//                 [at-{$type}*={s("%s", localName)}]
+//                     { block }
+
+//             else
+//                 +over( $type )
+//                     &[at-{$type}*={s("%s", localName)}],
+//                     [at-{$type}*={s("%s", localName)}]
+//                         { block }
+
+
+
+
+
+//  different, older version, possibly better, not sure.
+// at-class()
+//     selectorSetup = $sel( selector() )
+//     selector = selectorSetup[0]
+//     hasSplitSelectors = selectorSetup[1]
+
+//     if !hasSplitSelectors
+//         /[class*={s("%s", selector )}]
+//             {block}
+//     else
+//         /^[-1] [class*={s("%s", selector )}]
+//             {block}
+
+// at-breaks($types=null)
+//     selectorSetup = $sel( selector() )
+//     selector = selectorSetup[0]
+//     hasSplitSelectors = selectorSetup[1]
+
+//     if !$types
+//         $types = breakpoints
+
+//     for $type in $types
+//         if breakpoints[$type]
+//             if (breakpoints[$type] == 0px)
+//                 if !hasSplitSelectors
+//                     /[at-{$type}*={s("%s", selector)}]
+//                         {block}
+//                 else
+//                     /^[-1] [at-{$type}*={s("%s", selector)}]
+//                         {block}
+//             else
+//                 if !hasSplitSelectors
+//                     +over( $type )
+//                         /[at-{$type}*={s("%s", selector)}]
+//                             {block}
+//                 else
+//                     /^[-1] [at-{$type}*={s("%s", selector)}]
+//                         {block}
+
+// at-all-breaks($types=null)
+//     +at-class()
+//         {block}
+
+//     +at-breaks($types)
+//         {block}

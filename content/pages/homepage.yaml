@@ -1,0 +1,167 @@
+---
+id: home
+homepage: true
+hero:
+  hed: Your Future Now.
+  content: We accelerate business transformations through innovative capabilities
+    and emerging technologies. Delivering your future faster.
+  label: Build your Enablement Roadmap.
+  media: "/header@2x.jpg"
+  slug: content/pages/homepage.yaml
+title: PCGI Homepage
+hed: Your future now.
+slug: ''
+lede: ''
+strata:
+- template: content-strata-homepage
+  type: Industries
+  industriesStrata:
+    crossLinks:
+    - content/industries/life-sciences.md
+    - content/industries/government.md
+    - content/industries/aviation.md
+    page: content/pages/industries.yaml
+    learnMore:
+      hed: Learn more.
+      media: "/img7.jpg"
+  capabilitiesStrata:
+    crossLinks: []
+    page: ''
+    learnMore:
+      hed: ''
+      lede: ''
+  insightsStrata:
+    page: ''
+    spotlight: []
+    crossLinks: []
+- template: media-strata
+  layout: Call to Action
+  videoConfig:
+    playsinline: true
+    poster: ''
+    loop: true
+    preload: ''
+    autoplay: true
+  video: Blurred People
+  contentStrata:
+    hed: ''
+    content: ''
+    template: ''
+    label: ''
+    slug: ''
+  linkStrata:
+    hed: Come work with PCGI
+    content: PCGI has open positions for our team and we’re looking for you to join
+      us.
+    template: ''
+    label: Join the PCGI Team
+    slug: content/pages/careers.yaml
+  quoteStrata:
+    quote: ''
+    cite: ''
+    template: ''
+- template: content-strata-homepage
+  type: Capabilities
+  industriesStrata:
+    crossLinks: []
+    page: ''
+    learnMore:
+      hed: ''
+      media: ''
+  capabilitiesStrata:
+    crossLinks:
+    - content/capabilities/data-management.md
+    - content/capabilities/sales-and-marketing.md
+    - content/capabilities/digital.md
+    - content/capabilities/data-and-analytics.md
+    - content/capabilities/artificial-intelligence.md
+    page: content/pages/capabilities.yaml
+    learnMore:
+      hed: Learn more.
+      lede: PCGI supports a range of services that enable our clients to excel in
+        their business. Find out more about what PCGI offers.
+  insightsStrata:
+    page: ''
+    spotlight: []
+    crossLinks: []
+- template: media-strata
+  layout: Quote
+  videoConfig:
+    playsinline: true
+    autoplay: true
+    loop: true
+    poster: ''
+    preload: ''
+  video: Morning Sunshine
+  contentStrata:
+    hed: ''
+    content: ''
+    template: ''
+    label: ''
+    slug: ''
+  linkStrata:
+    hed: ''
+    content: ''
+    template: ''
+    label: ''
+    slug: ''
+  quoteStrata:
+    quote: PCGI’s emphasis on speed to delivery, business outcomes and operating model,
+      coupled with their Data and Analytics expertise, enables us to get the most
+      value from our Data. We see them as true Partners
+    cite: Executive Director, Commercial Insights Bio Pharma
+    template: ''
+- template: content-strata-homepage
+  type: Insights
+  industriesStrata:
+    crossLinks: []
+    page: ''
+    learnMore:
+      hed: ''
+      media: ''
+  capabilitiesStrata:
+    crossLinks: []
+    page: ''
+    learnMore:
+      hed: ''
+      lede: ''
+  insightsStrata:
+    page: content/pages/insights.yaml
+    spotlight:
+    - hed: Methodology
+      contentType: Methodology
+      methodology:
+        link: content/methodologies/agile-master-data-management.md
+      successStory:
+        link: ''
+    - hed: Success Story
+      contentType: Success Story
+      successStory:
+        link: content/success-stories/pcgi-carecloud.md
+      methodology:
+        link: ''
+    crossLinks:
+    - hed: Operational Data Governance Playbook
+      contentType: Methodology
+      methodology:
+        link: content/methodologies/operational-data-governance-playbook.md
+      successStory:
+        link: ''
+    - hed: Accelerating Patient Journey by Reducing PA Hurdles
+      contentType: Success Story
+      successStory:
+        link: content/success-stories/accelerating-patient-journey-by-reducing-pa-hurdles.md
+      methodology:
+        link: ''
+    - hed: MDM and Data Governance at Federal Health Agency
+      contentType: Success Story
+      successStory:
+        link: content/success-stories/mdm-and-data-governance-at-federal-health-agency.md
+      methodology:
+        link: ''
+    - hed: Data & Insight Driven Operating Model Case Study
+      contentType: Success Story
+      successStory:
+        link: content/success-stories/data-insight-driven-operating-model-case-study.md
+      methodology:
+        link: ''

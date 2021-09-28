@@ -1,0 +1,32 @@
+---
+label: Cross-link Content
+hide_body: true
+fields:
+- name: crossLink
+  type: field_group
+  config: {}
+  fields:
+  - name: hed
+    type: text
+    config:
+      required: false
+    label: Cross-link Headline
+    description: Leave empty to use the content title
+  - name: lede
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Cross-link Teaser
+    description: Leave empty to use the content teaser/overview
+  - name: media
+    type: file
+    config:
+      maxSize: 64
+    label: Cross-link Image
+    description: Images are used in cross-link cards that require an image
+  label: Cross-link Content
+  description: Cross-links are used around the site to link content from page to page

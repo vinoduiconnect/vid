@@ -1,0 +1,24 @@
+---
+label: Call to Action
+hide_body: true
+fields:
+- name: hed
+  type: text
+  config:
+    required: false
+  label: Headline
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Teaser
+  description: Short descriptive text about the action to be taken
+- name: link
+  type: include
+  config: {}
+  template: site-page-link
+  label: Link to which page

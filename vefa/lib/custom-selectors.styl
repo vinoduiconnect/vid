@@ -1,0 +1,77 @@
+//  ==========================================================================
+//  Action States
+
+on-all-states()
+    &:hover,
+    &:focus,
+    &:active,
+    &.is-active
+        {block}
+
+
+on-active()
+    &:focus,
+    &:active,
+    &.is-active
+        {block}
+
+
+on-hover()
+    &:hover,
+    &.is-reacting
+        {block}
+
+
+on-follows-check()
+    *:checked + &
+        {block}
+
+
+
+//  ==========================================================================
+//  Layers
+//
+//
+_pseudo_layer()
+    bottom: 0
+    content: ""
+    display: block
+    left: 0
+    position: absolute
+    right: 0
+    top: 0
+    z-index: -1
+
+
+has-layers()
+    &::before,
+    &::after
+        {block}
+
+
+apply-layers()
+    position: relative unless @position
+    z-index: 1 unless @z-index
+
+    +has-layers()
+        _pseudo_layer()
+        if block
+            {block}
+
+
+add-before()
+    position: relative unless @position
+    z-index: 1 unless @z-index
+
+    &::before
+        _pseudo_layer()
+        {block}
+
+
+add-after()
+    position: relative unless @position
+    z-index: 1 unless @z-index
+
+    &::after
+        _pseudo_layer()
+        {block}

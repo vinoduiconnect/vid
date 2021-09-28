@@ -1,0 +1,44 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: text
+  name: id
+  label: id
+  hidden: true
+- type: boolean
+  name: homepage
+  label: homepage
+  hidden: true
+  default: true
+- name: pageDefaults
+  type: include
+  config: {}
+  template: base-site-page
+  label: page defaults
+- type: field_group
+  name: hero
+  label: Hero Strata
+  fields:
+  - name: cta
+    type: include
+    config: {}
+    template: call-to-action
+    label: Main Call to Action
+  - type: file
+    name: media
+    label: Background Image
+  description: Introductory Section of Landing Page
+- name: strata
+  type: blocks
+  template_types:
+  - media-strata
+  - content-strata-homepage
+  config:
+    min: 0
+    max: 6
+  label: Content Strata
+  description: CMS-defined content sections for the homepage
+pages:
+- content/pages/homepage.yaml
+- content/pages/homepage.yaml

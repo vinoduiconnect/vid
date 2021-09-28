@@ -1,0 +1,36 @@
+---
+label: Base Site Page
+hide_body: false
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Display name
+  description: CMS-friendly display name
+- name: hed
+  type: text
+  config:
+    required: true
+  label: Heading
+  description: Title of page
+- name: lede
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Overview
+  description: Short overview of the content
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+  description: This is the base url for the page. (/page). Leave blank to use the
+    page title/heading for the slug
+pages:
+- content/forms/contact-us.yaml

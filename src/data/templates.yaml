@@ -1,0 +1,33 @@
+Error404: ./src/views/Error404View
+# FormView: ./src/views/FormView
+ListView: ./src/views/ListView
+
+Homepage: ./src/apps/Landing/LandingView
+
+CareerDetail: ./src/apps/Careers/CareerDetail
+CareersList: ./src/apps/Careers/CareersView
+
+# EventDetail: ./src/apps/Events/EventDetail
+# Events: ./src/apps/Events/EventsView
+
+# MethodologyDetail: ./src/apps/Methodologies/MethodologyDetail
+# Methodologies: ./src/apps/Methodologies/MethodologiesView
+
+# NewsDetail: ./src/apps/News/NewsDetail
+# News: ./src/apps/News/NewsView
+
+# PressReleaseDetail: ./src/apps/PressReleases/PressReleaseDetail
+# PressReleases: ./src/apps/PressReleases/PressReleasesView
+
+# SuccessStoryDetail: ./src/apps/SuccessStories/SuccessStoryDetail
+# SuccessStories: ./src/apps/SuccessStories/SuccessStoriesView
+
+# SuppportingPage: ./src/apps/Site/SuppportingPageView
+
+CapabilityDetail: ./src/apps/Capabilities/CapabilityDetail
+Capabilities: ./src/apps/Capabilities/CapabilitiesView
+
+# Insights: ./src/apps/Insights/InsightsView
+
+IndustryDetail: ./src/apps/Industries/IndustryDetail
+Industries: ./src/apps/Industries/IndustriesView

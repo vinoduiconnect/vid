@@ -1,0 +1,24 @@
+---
+label: Site Page Link
+hide_body: true
+fields:
+- name: label
+  type: text
+  config:
+    required: false
+  label: Link Label
+  description: Text label for the link
+  default: Learn more.
+- name: slug
+  type: select
+  default: content/pages/homepage.yaml
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: sitemap
+      file: 
+      path: 
+  label: Page Link
+  description: What page should this link to?

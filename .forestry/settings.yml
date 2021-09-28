@@ -1,0 +1,113 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: static/admin
+webhook_url: 
+sections:
+- type: document
+  path: content/pages/homepage.yaml
+  label: PCGI Homepage
+- type: directory
+  path: content
+  label: Sitemap
+  create: none
+  match: "{capabilities,careers,forms,industries,methodologies,pages,success-stories,team}/*"
+- type: heading
+  label: Content
+- type: directory
+  path: content/pages
+  label: Page Manager
+  create: none
+  match: "**/*"
+  templates:
+  - base-site-page
+- type: directory
+  path: content/success-stories
+  label: Success Stories
+  create: documents
+  match: "**/*"
+  templates:
+  - success-story
+- type: directory
+  path: content/methodologies
+  label: Methodologies
+  create: documents
+  match: "**/*"
+  templates:
+  - methodology
+- type: directory
+  path: content/industries
+  label: Industries
+  create: documents
+  match: "**/*"
+- type: directory
+  path: content/capabilities
+  label: Capabilities
+  create: documents
+  match: "**/*"
+- type: directory
+  path: content/forms
+  label: Forms
+  create: documents
+  match: "**/*"
+  new_doc_ext: yaml
+  templates:
+  - base-site-page
+- type: heading
+  label: PCGI People
+- type: directory
+  path: content/team
+  label: Team
+  create: documents
+  match: "**/*"
+  templates:
+  - team
+- type: directory
+  path: content/careers
+  label: Career Opportunities
+  create: documents
+  match: "**/*"
+  templates:
+  - career-opportunity
+- type: document
+  path: content/uscis.yaml
+  label: USCIS
+  templates:
+  - uscis
+- type: heading
+  label: Site Data
+- type: directory
+  path: content/tags
+  label: Tags
+  create: documents
+  match: "**/*"
+  new_doc_ext: yaml
+  templates:
+  - tag
+- type: document
+  path: content/videos.yaml
+  label: Video Library
+- type: document
+  path: content/org.yaml
+  label: Site Contact Info
+  templates:
+  - site-contact
+- type: document
+  path: content/seo.yaml
+  label: Sitewide SEO
+  templates:
+  - site-seo
+upload_dir: src/res
+public_path: ''
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - OUTPUT_DIR=__build
+  preview_output_directory: __build
+  install_dependencies_command: yarn install
+  preview_docker_image: node:10
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: yarn run develop

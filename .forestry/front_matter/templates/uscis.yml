@@ -1,0 +1,47 @@
+---
+label: USCIS
+hide_body: true
+fields:
+- name: pageDefaults
+  type: include
+  config: {}
+  template: base-site-page
+  label: Page Defaults
+- name: documents
+  type: field_group_list
+  fields:
+  - name: employeeName
+    type: text
+    config:
+      required: false
+    label: Employee
+    description: Employee Identification
+  - name: linkLabel
+    type: text
+    config:
+      required: false
+    label: Link Label
+    description: Define a label for your link to your downloadable file
+    default: Download or view USCIS file.
+  - name: file
+    type: file
+    config:
+      maxSize: 64
+    label: file
+    description: Supplied USCIS-centric documentation
+  - name: fileLink
+    type: text
+    config:
+      required: false
+    label: File Url
+    description: A url to an accessible document stored in a document repository,
+      such as Dropbox.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Employee Documentation
+  description: Per employee, please add appropriate documents through our interface
+    or supply a link to an accessible download location.
+pages:
+- content/uscis.yaml

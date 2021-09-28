@@ -1,0 +1,130 @@
+---
+label: Media Strata
+hide_body: true
+display_field: layout
+fields:
+- name: layout
+  type: select
+  default: General Content
+  config:
+    required: false
+    options:
+    - General Content
+    - Call to Action
+    - Quote
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Strata Layout
+  description: Determine which layout style and content you want to show
+- name: contentStrata
+  type: field_group
+  config: {}
+  fields:
+  - name: template
+    type: text
+    config:
+      required: false
+    label: template
+    default: snippet-strata
+    hidden: true
+  - name: hed
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Content Teaser
+    description: Short descriptive text
+  - name: link
+    type: include
+    config: {}
+    template: site-page-link
+    label: Link to
+    description: Where should this link?
+  label: General Content
+  showOnly:
+    field: layout
+    value: General Content
+- name: linkStrata
+  type: field_group
+  config: {}
+  fields:
+  - name: template
+    type: text
+    config:
+      required: false
+    label: template
+    hidden: true
+    default: link-strata
+  - name: hed
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Call to Action Content
+    description: Short descriptive text about why a person should click through
+  - name: link
+    type: include
+    config: {}
+    template: site-page-link
+    label: 'Link to:'
+    description: Where should the user go?
+  label: Call to Action Content
+  showOnly:
+    field: layout
+    value: Call to Action
+- name: quoteStrata
+  type: field_group
+  config: {}
+  fields:
+  - name: template
+    type: text
+    config:
+      required: false
+    label: template
+    hidden: true
+    default: quote-strata
+  - name: quote
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Quote
+    description: What did they say?
+  - name: cite
+    type: text
+    config:
+      required: false
+    label: Citation
+    description: Who said it?
+  label: Quote
+  showOnly:
+    field: layout
+    value: Quote
+- name: media
+  type: include
+  config: {}
+  template: embedable-videos
+  label: Background Video
+  description: Choose video to play as background

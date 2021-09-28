@@ -1,0 +1,65 @@
+---
+label: Cross-link Card
+hide_body: true
+display_field: hed
+fields:
+- name: hed
+  type: text
+  config:
+    required: true
+  label: Headline
+- name: contentType
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Methodology
+    - Success Story
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Cross-link Type
+  description: What type of content do you want to link to?
+- name: methodology
+  type: field_group
+  config: {}
+  fields:
+  - name: link
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: methodologies
+        file: 
+        path: 
+    label: Linked Methodology
+  label: Methodology Content
+  showOnly:
+    field: contentType
+    value: Methodology
+- name: successStory
+  type: field_group
+  config: {}
+  fields:
+  - name: link
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: success-stories
+        file: 
+        path: 
+    label: Linked Success Story
+  label: Success Story
+  showOnly:
+    field: contentType
+    value: Success Story

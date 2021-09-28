@@ -1,0 +1,52 @@
+---
+label: Site Contact
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: Company name
+  description: Name of the company
+- type: text
+  name: url
+  label: Domain
+  description: Same as top level domain, repeated here for contact and SEO purposes
+- type: text
+  name: email
+  label: Contact Email
+  description: Email address for general inquiries
+- type: text
+  name: phone
+  label: Contact Phone number
+  description: Main contact phone number
+- name: address
+  type: field_group
+  config: {}
+  fields:
+  - name: street1
+    type: text
+    config:
+      required: false
+    label: Street
+    description: Primary street address
+  - name: street2
+    type: text
+    config:
+      required: false
+    label: Suite
+    description: Secondary street address
+  - name: city
+    type: text
+    config:
+      required: false
+    label: City
+  - name: state
+    type: text
+    config:
+      required: false
+    label: State
+  - name: zip
+    type: text
+    config:
+      required: false
+    label: Zip code
+  label: Address

@@ -1,0 +1,39 @@
+.copy--main
+    > * + *
+        margin-top: flow(1)
+
+    h1,
+    h2
+        stack: hed
+        typeSet: subhed
+        font-weight: 100
+        color: var(--color-shade)
+
+        +at-standard()
+            typeSet: hed
+
+        +at-wide()
+            typeSet: xhed
+
+        &:not(:first-child)
+            margin-top: flow(2)
+
+            +at-economy()
+                margin-top: flow(3)
+
+        // typeSet: xhed
+
+    strong
+        color: var(--color-secondary-shade)
+
+    a
+        color: var(--color-primary)
+        text-decoration: underline
+
+    ul
+        li
+            list-style: circle
+            margin-left: flow(1.25)
+
+        > * + *
+            margin-top: flow(.25)

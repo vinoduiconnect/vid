@@ -1,0 +1,43 @@
+---
+label: Team Member
+hide_body: false
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Name
+- name: position
+  type: text
+  config:
+    required: true
+  label: Position
+  description: Team member job title or position held
+- name: leadership
+  type: boolean
+  label: Leadership
+  description: Is team member part of the executive team?
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email Address
+  description: Contact email address
+- name: phone
+  type: text
+  config:
+    required: false
+  label: Phone number
+  description: Contact phone number
+- name: image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: include
+    config: {}
+    template: asset
+    label: image
+  label: Profile Image
+  description: Team member photo

@@ -1,0 +1,27 @@
+---
+label: Tag
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Tagname
+- name: link
+  type: select
+  default: content/pages/homepage.yaml
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: sitemap
+      file: 
+      path: 
+  label: Link
+pages:
+- content/tags/artificial-intelligence.yaml
+- content/tags/data-analytics.yaml
+- content/tags/data-management.yaml
+- content/tags/life-sciences.yaml

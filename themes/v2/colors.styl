@@ -1,0 +1,105 @@
+.color{":"}
+    +at-class()
+        color: var(--active-fg)
+
+    // ++++++++++++++++++++++++++
+    &neutral
+        +at-class()
+            --active-fg: var(--color-neutral)
+
+            .fx:shift
+                +at-class()
+                    +on-hover()
+                        filter: brightness(.5)
+
+    &shade
+        +at-class()
+            --active-fg: var(--color-shade)
+
+            .fx:shift
+                +at-class()
+                    +on-hover()
+                        --active-fg: var(--color-secondary)
+
+                    +on-active()
+                        --active-fg: var(--color-secondary-shade)
+
+
+    // ++++++++++++++++++++++++++
+    &bright
+        +at-class()
+            --active-fg: var(--color-bright)
+
+    &dark
+        +at-class()
+            --active-fg: var(--color-dark)
+
+            .fx:shift
+                +at-class()
+                    +on-hover()
+                        --active-fg: var(--color-primary)
+
+                    +on-active()
+                        --active-fg: var(--color-primary-shade)
+
+    // ++++++++++++++++++++++++++
+    &primary
+        +at-class()
+            --active-fg: var(--color-primary)
+
+            .fx:shift
+                +at-class()
+                    +on-hover()
+                        --active-fg: var(--color-primary-hilite)
+
+                    +on-active()
+                        --active-fg: var(--color-primary-shade)
+
+    &secondary
+        +at-class()
+            --active-fg: var(--color-secondary)
+
+            .fx:shift
+                +at-class()
+                    +on-hover()
+                        --active-fg: var(--color-secondary-hilite)
+
+        &--hilite
+            +at-class()
+                --active-fg: var(--color-secondary-hilite)
+
+                .fx:shift
+                    +at-class()
+                        +on-hover()
+                            --active-fg: var(--color-bright)
+
+
+    // ++++++++++++++++++++++++++
+    &accent1
+        +at-class()
+            --active-fg: var(--color-accent-1)
+
+        &--tint
+            +at-class()
+                --active-fg: var(--color-accent-1-tint)
+
+        &--hilite
+            +at-class()
+                --active-fg: var(--color-accent-1-hilite)
+
+        &--shade
+            +at-class()
+                --active-fg: var(--color-accent-1-shade)
+
+    // ++++++++++++++++++++++++++
+    &affirm
+        +at-class()
+            --active-fg: var(--color-affirm)
+
+    &notice
+        +at-class()
+            --active-fg: var(--color-warn)
+
+    &dissent
+        +at-class()
+            --active-fg: var(--color-dissent)
